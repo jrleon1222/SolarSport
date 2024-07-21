@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Bienvenido!"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Cuenta"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="309dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="Ingrese su correo electrónico"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <EditText
+        android:id="@+id/nombredeusuario"
+        android:layout_width="315dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="@string/nombre_de_usuario"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="252dp"
+
+    <EditText
+        android:id="@+id/contraseña"
+        android:layout_width="311dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="contraseña"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <EditText
+        android:id="@+id/verifica_contraseña"
+        android:layout_width="308dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="verifica contraseña"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="304dp"
+        android:layout_height="50dp"
+        android:text="Aceptar términos y condiciones"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="307dp"
+        android:layout_height="44dp"
+        android:text="Registrarse"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Ya tiene una cuenta?"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar secion"
+        android:textColor="#0A2DEE"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="625dp" />" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
